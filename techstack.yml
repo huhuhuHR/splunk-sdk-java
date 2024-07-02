@@ -1,0 +1,210 @@
+repo_name: huhuhuHR/splunk-sdk-java
+report_id: 8052c12949bae6cde30dd3af354f5208
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:25:28+00:00'
+requested_by: ashah-splunk
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: Splunk
+  description: Search, monitor, analyze and visualize machine data
+  website_url: http://www.splunk.com
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1732/default_3ee4c34e118179464e491133fc4ac4f16e46771f.jpg
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-11-24 06:48:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Abhi Shah
+  last_updated_on: 2022-10-07 10:09:55.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/splunk/pom.xml
+  detection_source: splunk/pom.xml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-06-09 13:08:38.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/launchers/shim/shim.sln
+  detection_source: launchers/shim/shim.sln
+  last_updated_by: Fred Ross
+  last_updated_on: 2013-07-19 23:39:17.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Amy Sutedja
+  last_updated_on: 2020-05-26 18:10:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java
+  detection_source: Repo Metadata
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-06-09 13:08:38.000000000 Z
+- name: commons-cli:commons-cli
+  description: Apache Commons CLI provides a simple API for presenting
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/splunk/pom.xml
+  detection_source: splunk/pom.xml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-06-09 13:08:38.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/splunk/pom.xml
+  detection_source: splunk/pom.xml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-06-09 13:08:38.000000000 Z
+- name: net.sf.opencsv:opencsv
+  description: A simple library for reading and writing CSV in Java
+  version: '2.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/splunk-sdk-java/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: bparmar-splunk
+  last_updated_on: 2021-06-09 13:08:38.000000000 Z
